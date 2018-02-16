@@ -1,0 +1,28 @@
+{
+  "name": "typeServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^9.4.5",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.11.1",
+    "@types/pg": "^7.4.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.1"
+  }
+}
